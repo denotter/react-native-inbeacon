@@ -35,5 +35,5 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile('com.inbeacon:android.sdk:2.+'){ transitive = true }
+    compile('com.inbeacon:android.sdk:2.+@aar'){ transitive = true }
 }

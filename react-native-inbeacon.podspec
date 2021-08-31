@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   s.homepage       = package['homepage']
   s.platforms    = { :ios => "10.0" }
   s.source         = { :git => 'https://github.com/ramonvermeulen/react-native-inbeacon.git', :tag => s.version }
-  s.swift_version = '5.0'
+  s.swift_version = '5.4'
 
   s.source_files = "ios/**/*.{h,c,m,swift}"
   s.requires_arc = true
   
-  s.dependency "InbeaconSdk", '~> 3.2'
+  s.dependency "InbeaconSdk", '~> 3.4.01'
   s.dependency "React"
 end
