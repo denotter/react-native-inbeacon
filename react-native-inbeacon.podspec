@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.platforms    = { :ios => "10.0" }
-  s.source         = { :git => 'https://github.com/ramonvermeulen/react-native-inbeacon.git', :tag => s.version }
+  s.platforms    = { :ios => "14.5" }
+  s.source         = { :git => 'https://github.com/denotter/react-native-inbeacon.git', :tag => s.version }
   s.swift_version = '5.4'
 
   s.source_files = "ios/**/*.{h,c,m,swift}"
