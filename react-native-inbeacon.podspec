@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.platforms    = { :ios => "11" }
+  s.platforms    = { :ios => "12" }
   s.source         = { :git => 'https://github.com/denotter/react-native-inbeacon.git', :tag => s.version }
   s.swift_version = '5.4'
 
