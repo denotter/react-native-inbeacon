@@ -3,14 +3,13 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
-  s.name           = package['name']
-  s.version        = package['version']
-  s.summary        = package['description']
-  s.description    = package['description']
-  s.license        = package['license']
-  s.author         = package['author']
-  s.homepage       = package['homepage']
-  s.platforms    = { :ios => "12" }
+  s.name           = "react-native-inbeacon"
+  s.version        = package["version"]
+  s.summary        = "This module is providing a bridge between React Native and the Android / iOS Native SDKs from Inbeacon."
+  s.homepage       = "https://github.com/denotter/react-native-inbeacon"
+  s.author         = "Coffee IT"
+  s.license        = "MIT"
+  s.platforms    = { :ios => "11" }
   s.source         = { :git => 'https://github.com/denotter/react-native-inbeacon.git', :tag => s.version }
   s.swift_version = '5.4'
 
